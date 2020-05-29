@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/medium_margin"
+    tools:context=".TampilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_judul_buku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:text="@string/judul_buku"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/large_text"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_penerbit"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_margin"
+                android:text="@string/penerbit"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/small_text"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_tgl_terbit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_margin"
+                android:text="@string/tgl_terbit"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/small_text"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_buku"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_margin="@dimen/small_margin"
+            android:contentDescription="@string/buku"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tv_penulis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:text="@string/penulis"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_bahasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:text="@string/bahasan"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/small_text"
+            android:textStyle="normal" />
+    </LinearLayout>
+</ScrollView>

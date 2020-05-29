@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UAS 180030020 1</string>
+
+    <string name="judul_buku">Judul</string>
+    <string name="tgl_terbit">Terbit</string>
+    <string name="penerbit">Penerbit</string>
+    <string name="penulis">Penulis</string>
+    <string name="bahasan">Bahasan</string>
+
+    <string name="bagikan">Bagikan</string>
+    <string name="tambah">Tambah Buku</string>
+    <string name="edit">Edit Buku</string>
+    <string name="hapus">Hapus Buku</string>
+    <string name="titik_dua">:</string>
+    <string name="simpan">Simpan</string>
+
+    <string name="id_buku">ID Buku</string>
+    <string name="link">Link</string>
+    <string name="buku">Buku</string>
+    <string name="data_buku">Data Buku</string>
+</resources>
